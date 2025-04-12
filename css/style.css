@@ -181,6 +181,20 @@ section{
     
 }
 
+.form-contact-par-container-textarea{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.form-contact-par-container-textarea label{
+    text-align: start;
+}
+
+.form-contact-par-container-textarea textarea{
+    height: 100px;
+}
+
 /* Peliculas*/
 
 .movies-container{
