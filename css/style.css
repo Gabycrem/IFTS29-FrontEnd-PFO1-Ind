@@ -13,26 +13,32 @@
 
 /*Estilo de boton dark*/
 .btn-dark {
-    background-color: #000;
+    background-color: #481953;
     width: 250px;
     height: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #e6a6f5;  
+    color: #e6a6f5;
+     
+}
+
+.btn-dark:hover{
+    background-color: #292626;
+    transform: scale(1.1); 
 }
 
 /* Estilo bordes y sombra*/
 .shadow{
     box-shadow: 5px 5px #a382ab;
-    border: 2px solid black;
+    border: 2px solid #481953;
     border-radius: 1rem;
 }
 
   
 body{
     min-height: 100vh;
-    background: linear-gradient(to bottom, #fbc2eb, #a6c1ee);
+    background: linear-gradient(to bottom, #e6a6f5, #481953);
 
 }
 
@@ -96,9 +102,7 @@ main{
     max-width: 500px;
 }
 
-.btn-dark:hover{
-    background-color: #292626;
-}
+
 
 /* Todas las section */
 section{
@@ -124,9 +128,9 @@ section{
 }
 
 .card{
-    border: 2px solid black;
+    border: 2px solid #481953;
     border-radius: 1rem;
-    box-shadow: 5px 5px #a382ab;
+    box-shadow: 5px 5px #643271;
     min-width: 260px;
     max-width: 600px;
     padding: 1rem;
@@ -192,6 +196,11 @@ section{
     flex-direction: column;
 }
 
+.movie:hover{
+    transform: scale(1.01
+    ); 
+}
+
 .movies-container figure{
     min-height: 215px;
 }
@@ -207,6 +216,28 @@ section{
 
 footer{
     min-height: 10vh;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #481953;
+  color: #333;
+}
+
+.social-media a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-media img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease;
+}
+
+.social-media img:hover {
+  transform: scale(1.2);
 }
 
 @media only screen and (max-Width: 1370px ){

@@ -40,50 +40,49 @@ El proyecto se organiza en la siguiente estructura de carpetas y archivos:
 
 ### Repositorio y Publicación:
 - [X] Repositorio en GitHub creado.
-- [ ] Proyecto subido al repositorio.
-- [ ] Proyecto publicado utilizando GitHub Pages.
+- [X] Proyecto subido al repositorio.
+- [X] Proyecto publicado utilizando GitHub Pages.
 - [ ] En el "README.md" se indica la URL de GitHub Pages.
 
 ### Uso de Google Fonts:
 - [ ] Enlace a Google Fonts incluido en la sección "head" del HTML.
-- [ ] La tipografía importada se aplica en el sitio.
+- [X] La tipografía importada se aplica en el sitio.
 - [ ] Redacta brevemente tu decisión: ¿Por qué elegiste esa fuente?
-  **Respuesta:** __________________________________________________________
+  **Respuesta:** Me gusta, es divertida. No está incluida en el head ya que la importe directamente en el archivo .css
 
 ### HTML:
 - [X] El documento inicia con la declaración DOCTYPE y usa el atributo lang="es".
 - [X] Se han incluido las metaetiquetas obligatorias: charset y viewport.
 - [X] Se ha definido un título descriptivo.
-- [ ] Se han vinculado correctamente el archivo CSS y el enlace a Google Fonts.
+- [X] Se han vinculado correctamente el archivo CSS y el enlace a Google Fonts.
 - [X] Barra de navegación ("nav") presente y contiene al menos 3 enlaces.
 - [X] Se han insertado al menos 4 comentarios explicativos en el código HTML.
 
 ### CSS:
 - [X] Existe el archivo "styles.css" con estilos personalizados.
 - [X] Se utilizan selectores basados en clases e identificadores.
-- [ ] La tipografía importada desde Google Fonts se aplica correctamente en todos los elementos.
+- [X] La tipografía importada desde Google Fonts se aplica correctamente en todos los elementos.
 
 ### Layout y Organización:
 - [X] Se ha organizado el layout (especialmente en la sección "tarjetas") utilizando Flexbox o Grid.
-- [ ] Redacta: ¿Qué ventajas encontraste al utilizar Flexbox o Grid en tu proyecto?
-  **Respuesta:** ________________________________________________________
+- [X] Redacta: ¿Qué ventajas encontraste al utilizar Flexbox o Grid en tu proyecto?
+  **Respuesta:** Es muy fácil e intuitivo utilizar Flexbox para organizar una sección con Tarjetas, pero en general es la forma en la que me gusta organizar mis proyectos
 
 ### Estilización de Componentes:
-- [ ] Se han personalizado los estilos de tablas, botones, enlaces y formularios.
-- [ ] Se han ajustado las dimensiones de imágenes y contenedores utilizando unidades relativas (%, rem, vh).
-- [ ] Se ha implementado al menos una animación o transición (por ejemplo, efecto hover en tarjetas o botones).
-- [ ] Redacta: ¿Qué animación o transición implementaste y por qué consideraste que era adecuada para tu proyecto?
-  **Respuesta:** ________________________________________________________
+- [X] Se han personalizado los estilos de tablas, botones, enlaces y formularios.
+- [X] Se han ajustado las dimensiones de imágenes y contenedores utilizando unidades relativas (%, rem, vh).
+- [X] Se ha implementado al menos una animación o transición (por ejemplo, efecto hover en tarjetas o botones).
+- [X] Redacta: ¿Qué animación o transición implementaste y por qué consideraste que era adecuada para tu proyecto?
+  **Respuesta:** Utilice solo un transform de escala en los hover de botones y las tarjetas de las películas, queda sutil. También lo incorpore en el footer para los iconos de redes sociales, me gusta que donde el usuario pueda interactuar suceda algo más que solo cambiar el puntero del mouse. 
 
 ### Consideraciones Adicionales:
-- [ ] El diseño es responsivo y se visualiza correctamente en distintos dispositivos.
-- [ ] Se aplicaron buenas prácticas de accesibilidad (por ejemplo, uso adecuado de atributos alt en las imágenes).
-- [ ] Se añadieron comentarios adicionales donde se describan decisiones de diseño o la lógica de implementación.
+- [X] El diseño es responsivo y se visualiza correctamente en distintos dispositivos.
+- [X] Se aplicaron buenas prácticas de accesibilidad (por ejemplo, uso adecuado de atributos alt en las imágenes).
+- [X] Se añadieron comentarios adicionales donde se describan decisiones de diseño o la lógica de implementación.
 
 ---
 ## Propuestas de Mejora
 - Implementar **dark mode** con CSS variables para mejorar la experiencia del usuario.
-- Incorporar una sección de **FAQ** con preguntas frecuentes.
 - Usar **CSS variables** para facilitar la personalización del tema de colores.
 - Añadir una **optimización para SEO**, incluyendo metaetiquetas adicionales y estructura de encabezados adecuada.
 - Evaluar la integración de **JavaScript** para interacciones dinámicas, como un formulario de contacto con validaciones en tiempo real.
