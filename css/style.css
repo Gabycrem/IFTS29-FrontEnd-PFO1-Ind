@@ -181,16 +181,25 @@ section{
     justify-content: center;
 }
 
+.movie-title{
+    min-height: 60px;
+}
+
 .movie{
     max-width: 250px; 
     min-height: 600px;   
     display:inline-flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.movies-container figure{
+    min-height: 215px;
 }
 
 .img-movies{
     width: 35%;
     min-width: 140px;
+    min-height: 215px;
     border-radius: 1rem;
 }
 
