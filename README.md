@@ -27,9 +27,7 @@ El proyecto se organiza en la siguiente estructura de carpetas y archivos:
 
 ---
 ## Autor
-- **Nombre:** [Tu Nombre]
-- **GitHub:** [Tu Perfil]
-- **Email:** [Tu Correo]
+- **Nombre:** Nazarena Macre
 
 ---
 ## Checklist de Requerimientos
