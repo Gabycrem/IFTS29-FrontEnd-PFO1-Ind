@@ -16,7 +16,9 @@ El proyecto se organiza en la siguiente estructura de carpetas y archivos:
  ├── index.html  # Página principal
  ├── README.md  # Documentación del proyecto
 ```
-
+---
+## GitHub Pages
+🔗 [Ver la landing page en GitHub Pages](https://gabycrem.github.io/IFTS29-FrontEnd-PFO1-Ind/)
 ---
 ## Tecnologías Utilizadas
 - **HTML5** para la estructura del contenido.
